@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JSON Shopping Cart</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- PRODUCTS -->
+
+<div class="products">
+
+<h2>Products</h2>
+
+<div class="product-grid">
+
+<div class="product">
+<h3>Laptop</h3>
+<p class="price">₹55000</p>
+<button onclick="addItem('Laptop',55000)">Add</button>
+</div>
+
+<div class="product">
+<h3>Smartphone</h3>
+<p class="price">₹20000</p>
+<button onclick="addItem('Smartphone',20000)">Add</button>
+</div>
+
+<div class="product">
+<h3>Headphones</h3>
+<p class="price">₹3000</p>
+<button onclick="addItem('Headphones',3000)">Add</button>
+</div>
+
+<div class="product">
+<h3>Smart Watch</h3>
+<p class="price">₹7000</p>
+<button onclick="addItem('Smart Watch',7000)">Add</button>
+</div>
+
+<div class="product">
+<h3>Keyboard</h3>
+<p class="price">₹2500</p>
+<button onclick="addItem('Keyboard',2500)">Add</button>
+</div>
+
+<div class="product">
+<h3>Monitor</h3>
+<p class="price">₹12000</p>
+<button onclick="addItem('Monitor',12000)">Add</button>
+</div>
+
+</div>
+</div>
+
+<!-- CART -->
+
+<div class="cart">
+
+<h2>Cart</h2>
+
+<div id="cartItems"></div>
+
+<div class="summary">
+
+<p>Subtotal: ₹<span id="subtotal">0</span></p>
+<p class="discount">Discount: ₹<span id="discount">0</span></p>
+<p class="total">Total: ₹<span id="finalTotal">0</span></p>
+
+</div>
+
+<button class="clear" onclick="clearCart()">Clear Cart</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

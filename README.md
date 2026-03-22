@@ -28,4 +28,4 @@ json-shopping-cart
 
 ## Live Demo
 
-https://aravindb0.github.io/json-shopping-cart/
+https://aravindb0.github.io/Json-Shoppingcart/
